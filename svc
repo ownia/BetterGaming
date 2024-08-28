@@ -1,0 +1,18 @@
+#!/bin/bash
+
+MACOS_PATH=~/Library/Application\ Support/Steam/steamapps/common/Stardew\ Valley/Contents/MacOS/Mods
+
+if [ ! -d "$MACOS_PATH" ];
+then
+	echo "Please install SMAPI"
+	exit
+fi
+
+diff -rq "$MACOS_PATH" Mods --exclude=ConsoleCommands --exclude=SaveBackup
+if [ $? -eq 1 ];
+then
+	echo "Update Mods"
+	cp -r Mods/* "$MACOS_PATH"
+else
+	echo "Mods are up to date"
+fi
