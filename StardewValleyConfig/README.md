@@ -10,4 +10,6 @@
 | NPCMapLocations            | 239   | 3.1.0   |
 | SkipFishingMinigameDotnet5 | 2697  | 0.7.1   |
 | YetAnotherAutoWatering     | 21036 | 1.2.0   |
+| GiftTasteHelper            | 21001 | 1.2.3   |
+| ChestsAnywhere             | 518   | 1.24.1  |
 
