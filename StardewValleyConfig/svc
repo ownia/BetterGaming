@@ -12,7 +12,16 @@ diff -rq "$MACOS_PATH" Mods --exclude=ConsoleCommands --exclude=SaveBackup
 if [ $? -eq 1 ];
 then
 	echo "Update Mods"
-	cp -r Mods/* "$MACOS_PATH"
+
+	read -rp "Update remote or local: " type
+	if [ "$type" = "local" ];
+	then
+		cp -r Mods/* "$MACOS_PATH"
+	elif [ "$type" = "remote" ]
+	then
+		cp -r "$MACOS_PATH"/* Mods/
+		rm -r Mods/ConsoleCommands Mods/SaveBackup
+	fi
 else
 	echo "Mods are up to date"
 fi
