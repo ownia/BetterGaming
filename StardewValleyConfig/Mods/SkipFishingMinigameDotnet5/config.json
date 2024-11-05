@@ -5,5 +5,6 @@
   "IsRemoveAutoHook": false,
   "IsIgnoreTreasureChests": false,
   "MinimumCatchesRequired": 0,
-  "PerfectCatchChance": 100
+  "PerfectCatchChance": 100,
+  "IsPerfectMessageEnabled": true
 }

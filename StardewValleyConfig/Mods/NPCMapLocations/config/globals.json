@@ -1,6 +1,8 @@
 {
   "MenuKey": "Tab",
   "TooltipKey": "Space",
+  "MiniMapCacheTicks": 15,
+  "NpcCacheTicks": 30,
   "NameTooltipMode": 1,
   "OnlySameLocation": false,
   "ShowHiddenVillagers": false,
