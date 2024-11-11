@@ -3,7 +3,7 @@
   "TooltipKey": "Space",
   "MiniMapCacheTicks": 15,
   "NpcCacheTicks": 30,
-  "NameTooltipMode": 1,
+  "NameTooltipMode": 2,
   "OnlySameLocation": false,
   "ShowHiddenVillagers": false,
   "ShowQuests": true,

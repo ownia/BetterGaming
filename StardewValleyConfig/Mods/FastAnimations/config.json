@@ -1,7 +1,7 @@
 {
   "DisableEatAndDrinkConfirmation": false,
   "EatAndDrinkSpeed": 5.0,
-  "FishingSpeed": 1.0,
+  "FishingSpeed": 3.0,
   "HarvestSpeed": 3.0,
   "HoldUpItemSpeed": 5.0,
   "HorseFluteSpeed": 6.0,
